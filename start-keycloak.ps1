@@ -40,12 +40,21 @@ if ($kcRunning) {
 # 2. Localisation de Keycloak
 $candidates = @(
     $KeycloakPath,
+    # Keycloak 26.5.5 - extraction avec sous-dossier imbriqué
     "$env:USERPROFILE\Downloads\keycloak-26.5.5\keycloak-26.5.5",
+    # Keycloak 26.5.5 - extraction directe (sans sous-dossier)
+    "$env:USERPROFILE\Downloads\keycloak-26.5.5",
+    # Keycloak 26.4.7 - extraction avec sous-dossier imbriqué
     "$env:USERPROFILE\Downloads\keycloak-26.4.7\keycloak-26.4.7",
+    # Keycloak 26.4.7 - extraction directe
+    "$env:USERPROFILE\Downloads\keycloak-26.4.7",
     "C:\Users\user\Downloads\keycloak-26.5.5\keycloak-26.5.5",
+    "C:\Users\user\Downloads\keycloak-26.5.5",
     "C:\Users\user\Downloads\keycloak-26.4.7\keycloak-26.4.7",
+    "C:\Users\user\Downloads\keycloak-26.4.7",
     "C:\keycloak-24.0.5",
     "C:\keycloak-26.5.5",
+    "C:\keycloak-26.4.7",
     "C:\keycloak-*"
 )
 
