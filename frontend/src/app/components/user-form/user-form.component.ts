@@ -90,7 +90,7 @@ import { CreateUserRequest, UpdateUserRequest, User, UserRole, UserStatus } from
                   class="form-control"
                 />
                 <div class="error-feedback" *ngIf="isFieldInvalid('email')">
-                  <span>Veuillez renseigner un email valide (ex: nom@exemple.ma).</span>
+                  <span>Veuillez renseigner un email valide (ex: nom&#64;exemple.ma).</span>
                 </div>
               </div>
 
