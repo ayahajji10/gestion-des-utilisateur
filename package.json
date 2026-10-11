@@ -1,0 +1,20 @@
+{
+  "name": "gestion-utilisateurs",
+  "version": "1.0.0",
+  "description": "Application de gestion des utilisateurs - Angular, Java 21 Spring Boot, PostgreSQL, Keycloak",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix frontend start",
+    "build": "npm --prefix frontend run build",
+    "backend": "powershell -ExecutionPolicy Bypass -File ./start-backend.ps1",
+    "keycloak": "powershell -ExecutionPolicy Bypass -File ./start-keycloak.ps1"
+  },
+  "keywords": [
+    "angular",
+    "spring-boot",
+    "keycloak",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC"
+}
