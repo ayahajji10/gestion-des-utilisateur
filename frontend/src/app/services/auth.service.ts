@@ -42,7 +42,7 @@ export class AuthService {
         onLoad: 'check-sso',
         checkLoginIframe: false,
         pkceMethod: 'S256',
-        silentCheckSsoRedirectUri: window.location.origin + '/assets/silent-check-sso.html'
+        silentCheckSsoRedirectUri: window.location.origin + '/silent-check-sso.html'
       });
 
       this.authenticated = authenticated;

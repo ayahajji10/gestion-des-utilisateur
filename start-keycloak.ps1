@@ -29,33 +29,38 @@ try {
     exit 1
 }
 
+# 1.1 Vérification si Keycloak écoute déjà sur le port 8080
+$kcRunning = Test-NetConnection -ComputerName "localhost" -Port 8080 -InformationLevel Quiet -ErrorAction SilentlyContinue
+if ($kcRunning) {
+    Write-Host "[OK] Keycloak est déjà démarré et actif sur http://localhost:8080 !" -ForegroundColor Green
+    Write-Host "Le serveur fonctionne correctement. Vous pouvez accéder à la console sur http://localhost:8080/admin." -ForegroundColor Green
+    exit 0
+}
+
 # 2. Localisation de Keycloak
 $candidates = @(
     $KeycloakPath,
-    "$env:USERPROFILE\Downloads\keycloak-*\keycloak-*",
-    "$env:USERPROFILE\Downloads\keycloak-*",
-    "C:\keycloak-*",
-    "C:\Program Files\keycloak-*",
-    "C:\Tools\keycloak-*"
+    "$env:USERPROFILE\Downloads\keycloak-26.5.5\keycloak-26.5.5",
+    "$env:USERPROFILE\Downloads\keycloak-26.4.7\keycloak-26.4.7",
+    "C:\Users\user\Downloads\keycloak-26.5.5\keycloak-26.5.5",
+    "C:\Users\user\Downloads\keycloak-26.4.7\keycloak-26.4.7",
+    "C:\keycloak-24.0.5",
+    "C:\keycloak-26.5.5",
+    "C:\keycloak-*"
 )
 
 $kcBin = $null
 $kcHome = $null
 
-if ($KeycloakPath -and (Test-Path "$KeycloakPath\bin\kc.bat")) {
-    $kcHome = $KeycloakPath
-    $kcBin = "$KeycloakPath\bin\kc.bat"
-} else {
-    foreach ($cand in $candidates) {
-        if (-not $cand) { continue }
-        $found = Get-Item $cand -ErrorAction SilentlyContinue | Where-Object { Test-Path "$_\bin\kc.bat" } | Select-Object -First 1
-        if ($found) {
-            $kcHome = $found.FullName
-            $kcBin = "$found\bin\kc.bat"
-            break
-        }
+foreach ($cand in $candidates) {
+    if (-not $cand) { continue }
+    if (Test-Path "$cand\bin\kc.bat") {
+        $kcHome = $cand
+        $kcBin = "$cand\bin\kc.bat"
+        break
     }
 }
+
 
 if (-not $kcBin) {
     Write-Host "`n[INFO] Aucun dossier Keycloak détecté automatiquement." -ForegroundColor Yellow
