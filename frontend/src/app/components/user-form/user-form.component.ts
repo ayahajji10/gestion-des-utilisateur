@@ -200,7 +200,7 @@ import { CreateUserRequest, UpdateUserRequest, User, UserRole, UserStatus } from
               id="btn-submit-user"
             >
               <span *ngIf="submitting" class="spinner-small"></span>
-              <span>{{ isEditMode ? 'Enregistrer les modifications' : 'Enregistrer l\'utilisateur' }}</span>
+              <span>Enregistrer</span>
             </button>
           </div>
         </div>

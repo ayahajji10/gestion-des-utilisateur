@@ -1,26 +1,26 @@
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\config\CorsConfig.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\config\KeycloakClientConfig.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\config\SecurityConfig.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\controller\UserController.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\dto\CreateUserRequest.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\dto\PageResponse.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\dto\StatusUpdateRequest.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\dto\UpdateUserRequest.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\dto\UserDto.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\entity\UserEntity.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\entity\UserRole.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\entity\UserStatus.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\exception\BusinessException.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\exception\DuplicateResourceException.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\exception\ErrorResponse.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\exception\GlobalExceptionHandler.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\exception\ResourceNotFoundException.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\repository\UserRepository.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\repository\UserSpecification.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\security\KeycloakJwtAuthenticationConverter.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\security\SecurityUtils.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\service\KeycloakAdminService.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\service\KeycloakAdminServiceImpl.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\service\UserService.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\service\UserServiceImpl.java
-C:\Users\user\Desktop\Gestion des utilisateurs\backend\src\main\java\com\app\usermanagement\UserManagementApplication.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\config\CorsConfig.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\config\KeycloakClientConfig.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\config\SecurityConfig.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\controller\UserController.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\dto\CreateUserRequest.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\dto\PageResponse.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\dto\StatusUpdateRequest.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\dto\UpdateUserRequest.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\dto\UserDto.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\entity\UserEntity.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\entity\UserRole.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\entity\UserStatus.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\exception\BusinessException.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\exception\DuplicateResourceException.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\exception\ErrorResponse.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\exception\GlobalExceptionHandler.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\exception\ResourceNotFoundException.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\repository\UserRepository.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\repository\UserSpecification.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\security\KeycloakJwtAuthenticationConverter.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\security\SecurityUtils.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\service\KeycloakAdminService.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\service\KeycloakAdminServiceImpl.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\service\UserService.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\service\UserServiceImpl.java
+C:\Users\user\Desktop\utilisateur\backend\src\main\java\com\app\usermanagement\UserManagementApplication.java
