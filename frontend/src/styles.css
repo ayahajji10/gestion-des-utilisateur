@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Design System & Global Styles — Gestion des Utilisateurs
+   ========================================================================== */
+
+:root {
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Palette de la maquette */
+  --color-navy: #002B49;
+  --color-yellow: #FFC72C;
+  --color-yellow-hover: #EBB21C;
+  --color-blue-primary: #0056B3;
+  --color-blue-primary-hover: #004494;
+  --color-blue-card-header: #EBF3FC;
+  --color-blue-card-border: #D2E4F8;
+  --color-blue-table-header: #E8F2FD;
+  
+  --color-page-bg: #F8FAFD;
+  --color-text-title: #0A192F;
+  --color-text-subtitle: #5A6B82;
+  --color-input-border: #D0D9E5;
+  
+  --color-status-active-bg: #E6F9F0;
+  --color-status-active-text: #107C41;
+  --color-status-inactive-bg: #EFEFEF;
+  --color-status-inactive-text: #595959;
+
+  --color-primary: #0056B3;
+  --color-primary-hover: #004494;
+  --color-primary-light: #eff6ff;
+  
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748b;
+  --color-slate-400: #94a3b8;
+  --color-slate-300: #cbd5e1;
+  --color-slate-200: #e2e8f0;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50: #f8fafc;
+  
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-family);
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-800);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Typographie de base */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-slate-900);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+p {
+  color: var(--color-slate-600);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Scrollbars modernes */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.text-muted {
+  color: var(--color-slate-400);
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
