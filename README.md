@@ -191,3 +191,5 @@ Ouvrez votre navigateur web sur :
    - Les actions de modification et de suppression ne sont pas proposées dans le tableau.
    - La recherche textuelle, le tri par colonne et les filtres fonctionnent parfaitement.
    - Si un utilisateur avec ce rôle tente d'appeler directement l'API REST `POST /api/users`, Spring Boot renvoie un statut **`403 Forbidden`**.
+#   g e s t i o n - d e s - u t i l i s a t e u r  
+ 
